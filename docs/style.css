@@ -8,8 +8,8 @@
 
   --color-dark: #333;
   --color-light: #f1f1f1;
-  --color-primary: hsl(240, 67%, 40%);
-  --color-secondary: hsl(281, 76%, 58%);
+  --color-primary: rgb(78, 78, 162);
+  --color-secondary: rgb(107, 66, 46);
 }
 
 /* reset */
@@ -79,10 +79,14 @@ img {
   font-size: var(--step-7);
   font-weight: 800;
   text-transform: uppercase;
-  color: var(--color-secondary);
+  color: var(--color-primary);
 }
 .hero-content h2 {
   font-size: var(--step-4);
+}
+.hero-content h3 {
+  font-size: var(--step-1);
+  color: var(--color-primary);
 }
 
 .hero-image {
