@@ -84,15 +84,17 @@ img {
   color: var(--color-dark) !important;
   letter-spacing: 0.5rem;
   padding: 0.4rem 0.8rem;
-  padding-right: 0.3rem;
+  padding-right: 0.2rem;
   border: 2px solid;
   border-color: var(--color-secondary);
 }
 
 .button:hover {
-  text-decoration: none;
+  text-decoration: none !important;
   background-color: var(--color-fourthary);
   border-color: var(--color-primary);
+  letter-spacing: 0.6rem;
+  padding: 0.5rem, 0.9rem;
 }
 
 /* hero */
@@ -199,6 +201,7 @@ h1 {
 }
 
 .card {
+  position: relative;
   border: 1px solid var(--color-primary);
   border-radius: 20px;
 
@@ -221,3 +224,4 @@ h1 {
 .card-content {
   padding: 1rem;
 }
+
