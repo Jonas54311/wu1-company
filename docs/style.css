@@ -109,6 +109,7 @@ img {
 }
 .hero > * {
   grid-area: hero;
+  max-width: 100%;
 }
 .hero-content h1 {
   font-size: var(--step-7);
@@ -131,7 +132,7 @@ h1 {
 }
 
 .hero-image {
-  max-height: 60vh;
+  height: 350px;
   width: 100%;
   aspect-ratio: 16/9;
   object-fit: cover;
@@ -224,4 +225,3 @@ h1 {
 .card-content {
   padding: 1rem;
 }
-
