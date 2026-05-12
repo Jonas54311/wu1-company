@@ -81,6 +81,7 @@ img {
 
 .button {
   background-color: var(--color-thirdary);
+  text-decoration: none;
   color: var(--color-dark) !important;
   letter-spacing: 0.5rem;
   padding: 0.4rem 0.8rem;
@@ -224,4 +225,9 @@ h1 {
 
 .card-content {
   padding: 1rem;
+}
+
+.memberships {
+  padding-left: 5%;
+  padding-right: 5%;
 }
